@@ -15,10 +15,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v0
 
       - name: Set up Packer
-        uses: hashicorp/setup-packer@v3
+        uses: hashicorp/setup-packer@v0
         
       #- name: Setup `packer` with `latest` version (using local GitHub Action)
       #  uses: "./"
